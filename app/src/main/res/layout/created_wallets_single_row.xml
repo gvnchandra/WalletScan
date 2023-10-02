@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:gravity="center_vertical"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardCornerRadius="@dimen/wallets_cardview_corner_radius">
+
+    <LinearLayout
+        android:id="@+id/singleRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@drawable/wallets_single_row_bg"
+        android:padding="@dimen/low_component_distance">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/name_of_wallet"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:id="@+id/txtBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/low_component_distance"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/current_balance"
+            android:textColor="@color/black"
+            android:textSize="@dimen/secondary_text_size" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

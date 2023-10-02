@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="walletscan_icon_size">120dp</dimen>
+    <dimen name="home_profile_icon_size">30dp</dimen>
+    <dimen name="main_padding">20dp</dimen>
+    <dimen name="high_component_distance">30dp</dimen>
+    <dimen name="medium_component_distance">20dp</dimen>
+    <dimen name="low_component_distance">10dp</dimen>
+    <dimen name="primary_button_text_size">18sp</dimen>
+    <dimen name="cardview_corner_radius">40dp</dimen>
+    <dimen name="wallets_cardview_corner_radius">10dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="primary_text_size">18sp</dimen>
+    <dimen name="secondary_text_size">16sp</dimen>
+    <dimen name="ternary_text_size">14sp</dimen>
+    <dimen name="drawable_padding">20dp</dimen>
+    <dimen name="toolbar_elevation_size">5dp</dimen>
+    <dimen name="home_profile_icon_text_size">12sp</dimen>
+    <dimen name="search_box_height">40dp</dimen>
+    <dimen name="search_box_margin_start">10dp</dimen>
+    <dimen name="search_box_margin_end">20dp</dimen>
+    <dimen name="search_bo_drawable_padding">5dp</dimen>
+    <dimen name="search_box_padding_start">10dp</dimen>
+    <dimen name="search_box_padding_end">10dp</dimen>
+</resources>

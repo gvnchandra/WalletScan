@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/low_component_distance"
+        android:paddingTop="@dimen/low_component_distance"
+        android:textColor="@color/black"
+        android:textSize="@dimen/primary_text_size" />
+</LinearLayout>

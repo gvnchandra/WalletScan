@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itmAdd"
+        android:title="@string/add_money"
+        app:showAsAction="always"
+        android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/itmDeduct"
+        android:title="@string/deduct_money"
+        app:showAsAction="always"
+        android:icon="@drawable/deduct"/>
+    <item
+        android:id="@+id/itmFilter"
+        android:title="@string/filter"
+        android:icon="@drawable/filter"/>
+    <item
+        android:id="@+id/itmDetailHist"
+        android:title="@string/detail_history"/>
+    <item
+        android:id="@+id/itmSettings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"/>
+</menu>

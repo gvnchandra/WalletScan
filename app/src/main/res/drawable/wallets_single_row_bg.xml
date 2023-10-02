@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/white"/>
+    <stroke
+        android:color="@color/greyColor"
+        android:width="0.1dp"
+        />
+    <corners
+        android:topLeftRadius="@dimen/wallets_cardview_corner_radius"
+        android:topRightRadius="@dimen/wallets_cardview_corner_radius"
+        android:bottomLeftRadius="@dimen/wallets_cardview_corner_radius"
+        android:bottomRightRadius="@dimen/wallets_cardview_corner_radius"/>
+</shape>
